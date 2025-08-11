@@ -1,0 +1,160 @@
+/* ===================== RESET ===================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ===================== CUERPO ===================== */
+body {
+    background-color:honeydew;
+    font-family: 'Copperplate Gothic', sans-serif;
+}
+
+/* ===================== CONTENEDOR PRINCIPAL ===================== */
+#principal{
+    width: 100%;
+    height: 1000px;
+    margin: 0 auto;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#principal2{
+    width: 100%;
+    height: 650px; /* asegura que cubra toda la pantalla */
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.principal{
+    width: 100%;
+    height: 2400px;
+    margin: 0 auto;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* ===================== MENÚ CON LOGO ===================== */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:black; 
+    padding: 10px 20px;
+    gap: 20px;
+}
+
+/* Logo */
+.logo {
+    width: 80px;  
+    height: auto;     
+}
+
+/* Lista de enlaces */
+nav > ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav > ul > li {
+    margin: 0 15px;
+}
+
+nav > ul > li > a {
+    color:#f0f0f0;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    font-weight: bold;
+
+}
+#sociales{
+    text-decoration: none;
+    padding: 10px 15px;
+    display: column;
+    font-weight: bold;
+    list-style: none;
+}
+
+
+/* ===================== PIE DE PÁGINA ===================== */
+footer{
+    text-align: center;
+    padding: 15px;
+    background-color: darkslategray;
+    color: white;
+    margin-top: auto;
+}
+
+/* ===================== CONTENEDORES DE TODOS ===================== */
+#contenedor{
+    display: flex;
+    flex-direction: column;
+    margin-top: 350px;
+    width: 50%;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem; /* Tamaño de texto más grande */
+}
+#contenedor2{
+    display: flex;
+    flex-direction: column;
+    margin-top: 180px;
+    width: 50%;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem; /* Tamaño de texto más grande */
+}
+#contenedor3 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    width: 50%;
+    height: auto;         
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+
+#contacto{
+        list-style: none;
+}
+img{
+    border-radius: 10px;
+}
+.ajuste {
+    width: 40%;    
+    height: auto;      
+     /* ancho máximo fijo, ajusta según prefieras */
+    object-fit: cover;  /* para que la imagen rellene bien si cambias el tamaño */
+    display: block;     /* elimina espacios blancos si está en línea */
+    margin: 10px auto;  /* margen para separar y centrar */
+}
+
+/*===================PARA SERVICIOS===================*/
+.instalaciones {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* separación entre imágenes */
+    margin-top: 20px;
+    flex-wrap: wrap; /* para que se acomode en pantallas pequeñas */
+}
+
+.instalaciones div {
+    text-align: center;
+}
+
+.ajuste {
+    width: 250px; /* más pequeño para que quepan dos */
+    height: auto;
+    border-radius: 10px;
+}
